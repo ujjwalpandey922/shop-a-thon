@@ -1,0 +1,30 @@
+.filter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    margin: 10px;
+    height: 80vh;
+    background-color: #343a40;
+    color: azure;
+}
+.filter > span{
+    padding-bottom: 20px;
+}
+.filter > title{
+    font-size: 30px;
+}
+@media (max-width:800px){
+    .filter{
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+     }
+     .filter>span{
+        font-size: 10px;
+     }
+     .title{
+        font-size: 20px !important;
+     }
+}

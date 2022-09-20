@@ -1,0 +1,27 @@
+ .CartHome{
+    display: flex;
+    justify-content: space-between;
+ }
+ .summary{
+    width: 30%;
+ }
+ @media (max-width:800px) {
+   .filter{
+      width: 40%;
+      padding: 10px;
+      margin: 5px;
+   }
+   .filter>span{
+      font-size: 10px;
+   }
+   .title{
+      font-size: 20px !important;
+   }
+   .productContainer{width: 60%;padding: 0;}
+   .search{
+      display: none !important;
+   }
+   .products{
+      width: 100%;
+   }
+ }

@@ -1,0 +1,19 @@
+.products{
+    width:30%;
+    margin:10px;
+   
+}
+.smallDets{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (max-width:800px) {
+    .products{
+       width: 100% ;
+    }
+  }
+/* .footer{
+    display: flex;
+    justify-content: space-between;
+} */

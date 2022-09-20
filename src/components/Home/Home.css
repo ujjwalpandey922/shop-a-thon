@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+}
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    padding: 20px;
+}
+@media (max-width:800px){
+    .productContainer{width: 60%;padding: 0;}
+}
