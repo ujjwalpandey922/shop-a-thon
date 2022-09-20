@@ -1,3 +1,7 @@
+.nav{
+    position: fixed;
+}
+
 .cartItem{
     display: flex;
     justify-content: space-between;
